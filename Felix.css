@@ -1,0 +1,100 @@
+/* *{font-family: 'Arvo', serif; } */
+
+@font-face {
+    font-family: 'eveleth';
+    src: url(../fonts/Eveleth-Light.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'eveleth-thin';
+    src: url(../fonts/Eveleth-Thin.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+.thin {
+    font-family: eveleth-thin;
+    font-weight: 100;
+    margin-top: 40px;
+}
+body {
+    text-align: center;
+    background-color: black;
+    color:black;
+    background-image: url("tilestapetbaggrund/Wallpaper01_Small.jpg");
+    background-repeat: repeat;
+    font-family: eveleth;
+    font-weight: 100;
+}
+.info {
+    margin-bottom: 120px;
+}
+h2 {
+    margin-top: 50px;
+}
+p {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.Death {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+.question {
+    padding: 30;
+}
+.active {
+    background-color : darkred;
+    color: aliceblue;
+    border: none;
+    padding: 5px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 3px;
+    cursor: pointer;
+}
+.deactive {
+    color : darkred;
+    background-color : transparent;
+    border-color: darkred;
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 3px;
+    cursor: pointer;
+}
+.submit {
+    padding: 50px;
+}
+.Back {
+    padding: 50px;
+}
+.sub {
+    background-color: darkred;
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn {
+    color : darkred;
+   background-color : transparent;
+    border-color: darkred;
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 5px 3px;
+    cursor: pointer; 
+}

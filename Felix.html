@@ -1,0 +1,196 @@
+<html lang="en">
+    
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Which Death Are You?</title>
+    <link rel="stylesheet" href= "FelixCSS/Felix.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+    
+<body>
+    <div class="quiz"> 
+        <h1 class="Death"><font size="7">Which Death Are You?</font></h1>
+    <main>
+        <p class="info">
+            <font size="3"> As you already might have figured out, our Felix isn't the only Death around. And we know that you always wondered which kind of Death you probably might be yourself. Now there's a chance for you to find out! We designed this little test for you so you'll finally know. Enjoy!
+            </font>
+        </p>
+        <p>
+            <font size="6">1. What is your most intense feeling about death?</font>
+        </p>
+        <p class="question">
+            <button type="button" class="btn" id="11" onclick="add_toVariable(this.id)">It's nothing one needs to worry about.</button> 
+            <button type="button" class="btn" id="12" onclick="add_toVariable(this.id)">It's the destruction of life.</button> 
+            <button type="button" class="btn" id="13" onclick="add_toVariable(this.id)">It's terrifying.</button> <br/>
+            <button type="button" class="btn" id="14" onclick="add_toVariable(this.id)">It's a natural process in the circle of life.</button> 
+            <button type="button" class="btn" id="15" onclick="add_toVariable(this.id)">It's everyone's judgement day.</button> 
+            <button type="button" class="btn" id="16" onclick="add_toVariable(this.id)">It may be but the beginning of a new path.</button>
+        </p>
+        
+        <p>
+            <font size="6">2. Do you think death can be controlled to some degree?</font>
+        </p>
+        <p class="question">
+            <button type="button" class="btn" id="21" onclick="add_toVariable(this.id)">Faith can protect against a violent death but we'll meet Death eventually.</button>
+            <button type="button" class="btn" id="22" onclick="add_toVariable(this.id)">Death usually takes what he desires. Only true strength may resist.</button>
+            <button type="button" class="btn" id="23" onclick="add_toVariable(this.id)">Cleverness sure can trick Death for a while.</button>
+            <button type="button" class="btn" id="24" onclick="add_toVariable(this.id)">No. The day of death is predestinated no matter what.</button>
+            <button type="button" class="btn" id="25" onclick="add_toVariable(this.id)">There's no control over death, but your actions in life influence the eternity of your soul.</button>
+            <button type="button" class="btn" id="26" onclick="add_toVariable(this.id)">Only Death himself can decide if a person's lifespan has ended.</button>
+        </p>
+        
+        <p>
+            <font size="6">3. What are some of your strongest character traits?</font>
+        </p>
+        <p class="question">
+            <button type="button" class="btn" id="31" onclick="add_toVariable(this.id)">Tolerance and generosity.</button> 
+            <button type="button" class="btn" id="32" onclick="add_toVariable(this.id)">Greed, madness and chaos.</button> 
+            <button type="button" class="btn" id="33" onclick="add_toVariable(this.id)">I can be really sneaky and clever.</button>
+            <button type="button" class="btn" id="34" onclick="add_toVariable(this.id)">Duty and patience.</button> 
+            <button type="button" class="btn" id="35" onclick="add_toVariable(this.id)">I am judgmental, but also very just and caring.</button>
+            <button type="button" class="btn" id="36" onclick="add_toVariable(this.id)">I value righteousness and virtuousness the most.</button>
+        </p>
+        
+        <p>
+            <font size="6">4. What's your fashion style?</font>
+        </p>
+        <p class="question">
+            <button type="button" class="btn" id="41" onclick="add_toVariable(this.id)">Long robes are always nice. The color doesn't matter much to me.</button> 
+            <button type="button" class="btn" id="42" onclick="add_toVariable(this.id)">I maintain a wild but aesthetic look.</button>
+            <button type="button" class="btn" id="43" onclick="add_toVariable(this.id)">Black is the new black!</button>
+            <button type="button" class="btn" id="44" onclick="add_toVariable(this.id)">I prefer utterly unremarkable clothes. I don't have a specific style.</button>
+            <button type="button" class="btn" id="45" onclick="add_toVariable(this.id)">My look, without losing its dignity, has a touch of animality.</button> 
+            <button type="button" class="btn" id="46" onclick="add_toVariable(this.id)">My clothes should exude power and majesty.</button>
+        </p>
+        
+        <p>
+            <font size="6">5. How do people usually react to you?</font>
+        </p>
+        <p class="question">
+            <button type="button" class="btn" id="51" onclick="add_toVariable(this.id)">They love me!</button>
+            <button type="button" class="btn" id="52" onclick="add_toVariable(this.id)">They definitely don't welcome me.</button>
+            <button type="button" class="btn" id="53" onclick="add_toVariable(this.id)">I kind of get the feeling that people usually may find me creepy.</button>
+            <button type="button" class="btn" id="54" onclick="add_toVariable(this.id)">Mostly I barely get noticed by them.</button>
+            <button type="button" class="btn" id="55" onclick="add_toVariable(this.id)">They meet me with high respect.</button>
+            <button type="button" class="btn" id="56" onclick="add_toVariable(this.id)">They usually accept my decisions and follow my lead.</button>
+        
+        <p>
+            <font size="6">6. What kind of people do you like best?</font>
+        </p>
+        <p class="question">
+            <button type="button" class="btn" id="61" onclick="add_toVariable(this.id)"> If they like me, I like them back.</button>
+            <button type="button" class="btn" id="62" onclick="add_toVariable(this.id)">The weak that I have an easy game with.</button>
+            <button type="button" class="btn" id="63" onclick="add_toVariable(this.id)">I basically like everyone.</button>
+            <button type="button" class="btn" id="64" onclick="add_toVariable(this.id)">I have no right to judge anyone. I'm neutral.</button><br/>
+            <button type="button" class="btn" id="65" onclick="add_toVariable(this.id)">I believe that people who respect all life on earth are essentially good. </button>
+            <button type="button" class="btn" id="66" onclick="add_toVariable(this.id)">Rightful people with a lot of positive karma.</button>
+        
+        <p>
+            <font size="6">7. What is your essential thought about team work?</font>
+        </p>
+        <p class="question">
+            <button type="button" class="btn" id="71" onclick="add_toVariable(this.id)">A good intuition needs no team work.</button>
+            <button type="button" class="btn" id="72" onclick="add_toVariable(this.id)">If it serves as a mean to my end team work is great!</button>
+            <button type="button" class="btn" id="73" onclick="add_toVariable(this.id)">I prefer to work alone.</button>
+            <button type="button" class="btn" id="74" onclick="add_toVariable(this.id)">Team work is the best!</button>
+            <button type="button" class="btn" id="75" onclick="add_toVariable(this.id)">I like taking other's opinions into consideration but in the end my decisions are on me.</button>
+            <button type="button" class="btn" id="76" onclick="add_toVariable(this.id)">Everyone profits from a little helping hand.</button>
+        
+        <p>
+            <font size="6">8. How wise would you consider yourself?</font>
+        </p>
+        <p class="question">
+            <button type="button" class="btn" id="81" onclick="add_toVariable(this.id)">Very wise.</button>
+            <button type="button" class="btn" id="82" onclick="add_toVariable(this.id)">I don't care about wisdom.</button>
+            <button type="button" class="btn" id="83" onclick="add_toVariable(this.id)">Semi. My decisions do not always lead to success.</button>
+            <button type="button" class="btn" id="84" onclick="add_toVariable(this.id)">I'm a doer, not a thinker.</button>
+            <button type="button" class="btn" id="85" onclick="add_toVariable(this.id)">My long experience gives me enough wisdom to do well.</button>
+            <button type="button" class="btn" id="86" onclick="add_toVariable(this.id)">I know that wisdom is infinite and that it is always good to gain some more.</button>
+            
+        <p class="submit">
+            <button type="submit" class="sub" onclick="submit();">Submit</button>
+        </p>
+    </main>
+    </div> 
+    
+    <div class="result1">
+        <h2><font size="6">You are Santa Muerte</font></h2>
+        <p>
+            <img src="DeathsPictures/SantaMuerte.jpg" alt="Santa Muerte" width="300" height="400">
+        </p>
+        <p class="thin">
+            <font size="3"> Santa Muerte is a female diety in Mexican folk Catholicism and is associated with healing, protection from unnatural and violent death, financial wellbeing and a safe delivery to the afterlife. Although the Catholic Church considers the worship of Santa Muerte invalid, her cult, which first popped up around year 2000, is one of the fastest growing new religious movements in the world. The reason for that may be that Santa Muerte is a very generous and tolerant deity. Everyone can join her cult, may they be married, divorced or homosexual. In return she only expects a little faith in her and once in a while some good chocolate, cigarettes or a shot of tequila. Once a year the Day of Death is held in Mexico where people worship Santa Muerte and death in general. And if you think about it - being on good terms with the Death is very smart. Nothing is more certain than that we'll meet her eventually.  </font>
+        </p>
+        <p class="Back">
+          <button type="submit" class="sub" onclick="goBack();">Retake Test</button>  
+        </p>
+    </div>
+    <div class="result2">
+        <h2><font size="6">You are Ker</font></h2>
+        <p>
+            <img src="DeathsPictures/Ker.jpg" alt="Ker">
+        </p>
+        
+        <p class="thin">
+            <font size="3">As an ancient Greek goddess Ker is responsible for all violent deaths. It might therefore be no surprise that you'll mostly meet her on battlefields as a fellow of the god of war Ares, were she'll harvest the lives of the poor wounded men. It seems like sheis loving her job and as the goddess of violent death she finds nothing more satisfying than chaos, destruction and madness. Despite her overall beauty emphasized by her shiny red hair, one look into her cold and cruel eyes is enough to drive everyone crazy. Her symbol is a broken chain that symbolizes her ability to break the order and to destroy every glimmer of stability. </font>
+        </p>
+        <p class="Back">
+          <button type="submit" class="sub" onclick="goBack();"> Retake Test</button>  
+        </p>
+    </div>
+    <div class="result3">
+        <h2><font size="6">You are the Grimm Reaper</font></h2>
+        <p>
+            <img src="DeathsPictures/GrimmReaper.jpg" alt="Grimm Reaper" width="500">
+        </p>
+        <p class="thin">
+            <font size="3"> As a personification of Death, primary originated in the Dark Age, the Grimm Reaper definitely is no one you want to invite into your home. Sneaking and hiding in the shadows, he wanders amongst the living and waits for an opportunity to harvest every soul he can get with his scythe without making any differences between roses, corn and weeds. The Grimm Reaper is feared amongst people and accused of violently taking lifes. Truth is, he is simply doing his job, patiently waiting for the end of your lifespan, whereafter he can harvest your soul and help you find your way into the next realm. The decisions over who lives and dies are not really on him though. This may be the reason for a chance to trick him for a while and avoid your destiny for this time.</font>
+        </p>
+        <p class="Back">
+          <button type="submit" class="sub" onclick="goBack();"> Retake Test</button>  
+        </p>
+    </div>
+     <div class="result4">
+         <h2><font size="6">You are a Shinigami</font></h2>
+         <p>
+             <img src="DeathsPictures/Shinigami1.jpg" alt="Shinigami" width="300">
+         </p>
+        <p class="thin">
+            <font size="3">Shinigamis are death spirits found in Japanese folklore who came into being after the country came into contact with western cultures. Shinigamis are not sovereign over life and death but simply function as agents who facilitate the smooth running of the natural cycle of life, which death is a part of. Shinigamis usually work in pairs, ensuring that people die at the appointed time as they politely invite people to death or even prevent them from dying. A tale goes: A man who is done with his life and is just about to commit suicide is suddenly visited by a shinigami who tells him that his candle hasn't burned out yet. In order to stop the man from his act, the shinigami tells him an easy way to make money and apparently the man is convinced. But how would you recognize a shinigami? Well, first of all they are invisible to everyone who isn't about to die. And even if you could see them they never have the same look or shape, so recognizing one seems generally hard.  </font>
+        </p>
+        <p class="Back">
+          <button type="submit" class="sub" onclick="goBack();"> Retake Test</button>  
+        </p>
+    </div>
+     <div class="result5">
+         <h2><font size="6">You are Anubis</font></h2>
+         <p>
+             <img src="DeathsPictures/anubis2.png" alt="Anubis" width="300" height="300">
+         </p>
+        <p class="thin">
+            <font size="3"> Anubis is the ancient Egyptian god of mummification and death rites. His most outstanding characteristics may be his dog or jackal head and his scepter. He oversees the appropriate treatment and mummification of the corpses, whereafter he welcomes and leads the dead people's souls to the afterlife. At that he lays a protecting hand on the mummy. That is if the dead is lucky. Another of his responsibilities aforesaid is the judgement of the so called weighing of souls where a dead person's heart is weighed. If a heart is too heavy the soul of the dead won't be able to free itself from the person's bad actions in life and is considered insufficient to enter the realm of the dead. The heart will then be fed to Ammit, the Devourer of Souls, instead. Although Anubis isn't the only judge in this court his assessments are of vital importance, so it's a good idea to approach your prayers to him directly. </font>
+        </p>
+        <p class="Back">
+          <button type="submit" class="sub" onclick="goBack();"> Retake Test</button>  
+        </p>
+    </div>
+     <div class="result6">
+         <h2><font size="6">You are Yama</font></h2>
+         <p>
+             <img src="DeathsPictures/Yama2.jpg" alt="Yama" width="300">
+         </p>
+        <p class="thin">
+            <font size="3"> As the Hinduistic god of death and righteousness, Yama's job is to govern the realm of the dead and to decide which path of destiny the "visitors" of his underworld have to take. His decisions are based on the karma the dead people possess, that is the sum of their good and bad actions in life. As a righteous god, Yama rewards and punishes and he can even send people back to life if he decides to do so. As powerful as he may sound, he is wise enough to not try to manage his underworld all alone. To this end he has his servant Chitragupta who accounts over the good and bad actions of the dead and helps Yama in his position as judge. Yama also steadily tries to gain more and more wisdom and enlightenment, so he is definitely no one who rests on his laurels.  </font>
+        </p>
+        <p class="Back">
+          <button type="submit" class="sub" onclick="goBack();"> Retake Test</button>  
+        </p>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="FelixJS/Felix.js" type="text/javascript">
+    </script>
+</body>
+    
+</html>
